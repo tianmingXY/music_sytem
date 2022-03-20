@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+	<!-- 表示本地仓库 -->
+	<localRepository>D:/maven/repository</localRepository> 
+	
+	<pluginGroups>
+	</pluginGroups>
+
+	<proxies>
+	</proxies>
+
+	<servers>
+	</servers>
+
+	<mirrors>
+	
+	
+
+	<!-- 设置maven文件存放路径 <localRepository>D:/develoment/software/maven/repository</localRepository>  -->
+		<mirror>
+			 <id>aliyun</id>
+             <name>aliyun Maven</name>
+             <mirrorOf>*</mirrorOf>
+             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</mirror>
+	
+<!--
+		<mirror>
+			<id>aliyun</id>
+			<name>aliyun Maven</name>
+			<mirrorOf>*</mirrorOf>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</mirror>
+-->
+	</mirrors>
+	<profiles>
+
+	</profiles>
+	<activeProfiles>
+	</activeProfiles>
+
+
+
+</settings>
